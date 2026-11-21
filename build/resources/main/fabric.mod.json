@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "oac",
+  "version": "1.0.1",
+  "name": "OAC Calculator",
+  "description": "In-game calculator for the OAC cannon. Ported from a supplied Python script.",
+  "authors": ["OAC Calculator Java port"],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.oac.client.OacClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
